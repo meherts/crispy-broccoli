@@ -23,8 +23,8 @@ public class AppConfig
     }
 
     @Bean
-    public Person person(HelloBean helloBean, GoodbyeBean goodbyeBean)
+    public PersonBean person(HelloBean helloBean, GoodbyeBean goodbyeBean)
     {
-        return new Person(helloBean, goodbyeBean);
+        return new PersonBean(helloBean, goodbyeBean);
     }
 }

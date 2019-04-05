@@ -1,20 +1,20 @@
 package com.idexx.labstation.springguide.configuration.javabased;
 
-class Person
+class PersonBean
 {
     private final HelloBean helloBean;
     private final GoodbyeBean goodbyeBean;
 
-    Person(HelloBean helloBean, GoodbyeBean goodbyeBean)
+    PersonBean(HelloBean helloBean, GoodbyeBean goodbyeBean)
     {
         this.helloBean = helloBean;
         this.goodbyeBean = goodbyeBean;
     }
 
-    void speak() throws InterruptedException
+    void speak()
     {
         this.helloBean.sayHello();
-        Thread.sleep(1000);
+        try { Thread.sleep(1000); } catch(InterruptedException ignored) { }
         this.goodbyeBean.sayGoodbye();
     }
 }

@@ -9,9 +9,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class AppLauncher
 {
-    public static void main(String[] args) throws InterruptedException
+    public static void main(String[] args)
     {
         final ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
-        ctx.getBean(Person.class).speak();
+        ctx.getBean(PersonBean.class).speak();
     }
 }
