@@ -1,4 +1,4 @@
-package com.idexx.labstation.springguide.configuration;
+package com.idexx.labstation.springguide.configuration.javabased;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

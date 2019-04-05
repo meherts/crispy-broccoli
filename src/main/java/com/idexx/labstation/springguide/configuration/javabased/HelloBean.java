@@ -1,4 +1,4 @@
-package com.idexx.labstation.springguide.configuration;
+package com.idexx.labstation.springguide.configuration.javabased;
 
 class HelloBean
 {

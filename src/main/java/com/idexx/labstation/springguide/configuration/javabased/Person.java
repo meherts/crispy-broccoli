@@ -1,4 +1,4 @@
-package com.idexx.labstation.springguide.configuration;
+package com.idexx.labstation.springguide.configuration.javabased;
 
 import javax.inject.Named;
 import java.util.concurrent.TimeUnit;
