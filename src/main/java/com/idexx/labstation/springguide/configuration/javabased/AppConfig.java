@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-java
  */
 @Configuration
-@ComponentScan(basePackages = "com.idexx.labstation.springguide.configuration")
+@ComponentScan(basePackages = "com.idexx.labstation.springguide.configuration") //  loads Person bean
 public class AppConfig
 {
     @Bean
