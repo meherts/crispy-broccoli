@@ -9,12 +9,18 @@ import org.springframework.context.annotation.Configuration;
  * https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-java
  */
 @Configuration
-@ComponentScan(basePackages = "com.idexx.labstation.springguide.configuration") //  load beans not defined in this class
+@ComponentScan(basePackages = "com.idexx.labstation.springguide.configuration")
 public class AppConfig
 {
     @Bean
     public HelloBean helloBean()
     {
         return new HelloBean();
+    }
+
+    @Bean
+    public GoodbyeBean goodbyeBean()
+    {
+        return new GoodbyeBean();
     }
 }
