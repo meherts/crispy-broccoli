@@ -9,6 +9,6 @@ public class TestClassOne
 
     public void bar()
     {
-
+        System.out.println("Goodbye, World!");
     }
 }
